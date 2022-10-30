@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de datos</title>
+    <script src="java.js" defer></script>
+</head>
+<body style="background:linear-gradient(30deg, rgb(151, 88, 101),rgb(74, 185, 102), rgb(134, 85, 163), rgb(219, 189, 133), purple); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
+    <div style="text-align: center; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white;">
+        <h1>Validando datos</h1>      
+        <p>Agrega tu nombre:</p>
+        <input id="nombre" required>
+        <p id="valida_nombre"></p>       
+        <p>Agrega tu numero de control:</p>
+        <input id="num_control" required>
+        <p id="VN_control"></p>
+        <p>Agrega tu numero de telefono (Morelia):</p>
+        <input id="num_telefono" required>
+        <p id="VN_telefono"></p>
+        <p>Agrega tu RFC:</p>
+        <input id="num_RFC" required>
+        <p id="VN_RFC"></p>          
+        <p>Agrega tu correo institucional:</p>
+        <input id="correo" required>
+        <p id="V_correo"></p>
+        
+        <p id="VUser"></p>
+        
+        <button type="button" onclick="myFunction()">Validar</button>
+    </div>
+</body>
+</html>
